@@ -1,10 +1,15 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 4b180dbd21d07ac91c26fc6afb6ee0c1
+  docVersion: 2.0.0
+  speakeasyVersion: 1.31.1
+  generationVersion: 2.27.0
 generation:
   telemetryEnabled: false
   sdkClassName: SDK
-  sdkFlattening: true
   singleTagPerOp: false
 typescript:
-  version: ""
+  version: 1.0.0
   author: frame-dev
+  maxMethodParams: 0
   packageName: frame
